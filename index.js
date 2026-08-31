@@ -185,7 +185,7 @@ app.get("/", (req, res) => {
     <div id="pair-section">
       <div class="input-group">
         <label>Enter your WhatsApp number with country code</label>
-        <input type="text" id="phone-input" placeholder="+263781021754">
+        <input type="text" id="phone-input" placeholder="+27736324314">
       </div>
       <button class="btn-main" id="gen-btn" onclick="generatePairCode()"><i class="fas fa-key"></i> Generate Pair Code</button>
       <div class="display-box" id="code-box">Your pair code will appear here</div>
