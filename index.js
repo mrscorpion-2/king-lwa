@@ -111,7 +111,7 @@ async function sendConnectionOnboarding(sock) {
   const botNumber = sock.user?.id?.split(":")[0]?.split("@")[0] || "unknown";
   const recipient = jidFromNumber(OWNER_NUMBER) || jidFromNumber(botNumber);
   if (!recipient) return;
-  const caption = `✅ *${BOT_NAME} Connected*\n\n📱 *Bot number:* +${botNumber}\n👑 *Owner:* +263 781 021 754\n🌐 *Website:* nexora.zone.id\n\n📖 *How to use the bot:*\n• Send *.menu* to view all commands\n• Send *.play <song name>* to search and download YouTube audio\n• Send *.yt <YouTube URL>* for video downloads\n• Send *.tt*, *.ig*, or *.fb* followed by a URL for supported platform downloads\n• Reply to an image with *.tourl* to upload it to ImgBB\n• Group admins can use *.welcome on/off* and *.goodbye on/off*\n\n_Type *.menu* for the complete command list._`;
+  const caption = `✅ *${BOT_NAME} Connected*\n\n📱 *Bot number:* +${botNumber}\n👑 *Owner:* +27736324314\n🌐 *Website:* nexora.zone.id\n\n📖 *How to use the bot:*\n• Send *.menu* to view all commands\n• Send *.play <song name>* to search and download YouTube audio\n• Send *.yt <YouTube URL>* for video downloads\n• Send *.tt*, *.ig*, or *.fb* followed by a URL for supported platform downloads\n• Reply to an image with *.tourl* to upload it to ImgBB\n• Group admins can use *.welcome on/off* and *.goodbye on/off*\n\n_Type *.menu* for the complete command list._`;
   try {
     const response = await fetch(MENU_IMAGE);
     if (!response.ok) throw new Error(`menu image HTTP ${response.status}`);
