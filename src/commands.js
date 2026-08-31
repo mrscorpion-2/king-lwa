@@ -543,7 +543,7 @@ function buildMenu(pushName, runtime) {
 ┃ [] RUNTIME : ${runtime}
 ┃ [] USER    : ${pushName}
 ┃ [] DEV     : ${AUTHOR}
-┃ [] SITE    : nexora.zone.id
+┃ [] SITE    : next updt
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
 ╭━━〔 📥 DOWNLOADS 〕━━⬣
