@@ -311,7 +311,7 @@ async function runVideoOp(sock, msg, op, params = {}, format = "mp4") {
 // ── Nexa VDL (video/audio downloader) ────────────────────────────────────────
 async function downloadMedia(sock, msg, url, type = "video") {
   const jid = msg.key.remoteJid;
-  await reply(sock, msg, `⏳ *Nexora is processing your request...*\n🛠️ *Type:* ${type.toUpperCase()}`);
+  await reply(sock, msg, `⏳ *lwazi is processing your request...*\n🛠️ *Type:* ${type.toUpperCase()}`);
   try {
     const dlRes = await vdlStartDownload({ url, type, quality: "720p" });
     if (!dlRes.data.success) throw new Error(dlRes.data.error || "Download request failed");
@@ -476,7 +476,7 @@ async function handleAI(sock, msg, prompt, mode = "ai", provider = AI_PROVIDER) 
   };
   try {
     const text = await askTextAI(prompt, { system: systemPrompts[mode] }, provider);
-    if (text) await reply(sock, msg, `🤖 *Nexora AI:*\n\n${text}`);
+    if (text) await reply(sock, msg, `🤖 *Lwazi AI:*\n\n${text}`);
   } catch (err) {
     await reply(sock, msg, `❌ ${err.message}`);
   }
@@ -523,7 +523,7 @@ async function handleTranscribe(sock, msg, { translateTo } = {}) {
     const fs = require("fs");
     const os = require("os");
     const path = require("path");
-    const tmpFile = path.join(os.tmpdir(), `nexora-audio-${Date.now()}.ogg`);
+    const tmpFile = path.join(os.tmpdir(), `lwazi-audio-${Date.now()}.ogg`);
     fs.writeFileSync(tmpFile, buf);
     const transcript = await openai.audio.transcriptions.create({ file: fs.createReadStream(tmpFile), model: "whisper-1" });
     fs.unlinkSync(tmpFile);
