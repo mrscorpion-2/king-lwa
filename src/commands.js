@@ -538,147 +538,147 @@ async function handleTranscribe(sock, msg, { translateTo } = {}) {
 }
 
 function buildMenu(pushName, runtime) {
-  return `╭━〔${BOT_NAME}〕━⬣
-┃ [] STATUS  : ONLINE
-┃ [] RUNTIME : ${runtime}
-┃ [] USER    : ${pushName}
-┃ [] DEV     : ${AUTHOR}
-┃ [] SITE    : next updt
+  return `╭━〘${BOT_NAME}〙━⬣
+┃ ᚛ Sᴛᴀᴛᴜs  : ONLINE
+┃ ᚛ ʀᴜɴᴛɪᴍᴇ : ${runtime}
+┃ ᚛ ᴜsᴇʀ    : ${pushName}
+┃ ᚛ ᴅᴇᴠ     : ${AUTHOR}
+┃ ᚛ sɪᴛᴇ    : ɪɴ ɴᴇxᴛ ᴜᴘᴅᴛ 
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 📥 DOWNLOADS 〕━━⬣
-┃➤ ${PREFIX}yt
-┃➤ ${PREFIX}play <query>
-┃➤ ${PREFIX}song 
-┃➤ ${PREFIX}video 
-┃➤ ${PREFIX}tt
-┃➤ ${PREFIX}ig
-┃➤ ${PREFIX}fb 
-┃➤ ${PREFIX}wallpaper
+╭━━〘 📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂 〙━━⬣
+┃⇶ ${PREFIX}yt
+┃⇶ ${PREFIX}play <query>
+┃⇶ ${PREFIX}song 
+┃⇶ ${PREFIX}video 
+┃⇶ ${PREFIX}tt
+┃⇶ ${PREFIX}ig
+┃⇶ ${PREFIX}fb 
+┃⇶ ${PREFIX}wallpaper
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🔎 SEARCH 〕━━⬣
-┃➤ ${PREFIX}google
-┃➤ ${PREFIX}bing 
-┃➤ ${PREFIX}duckduckgo 
-┃➤ ${PREFIX}yahoo 
-┃➤ ${PREFIX}brave
-┃➤ ${PREFIX}wiki
-┃➤ ${PREFIX}define
-┃➤ ${PREFIX}weather
-┃➤ ${PREFIX}maps
-┃➤ ${PREFIX}news
+╭━━〘 🔎 𝚂𝙴𝙰𝚁𝙲𝙷 〙━━⬣
+┃⇶ ${PREFIX}google
+┃⇶ ${PREFIX}bing 
+┃⇶ ${PREFIX}duckduckgo 
+┃⇶ ${PREFIX}yahoo 
+┃⇶ ${PREFIX}brave
+┃⇶ ${PREFIX}wiki
+┃⇶ ${PREFIX}define
+┃⇶ ${PREFIX}weather
+┃⇶ ${PREFIX}maps
+┃⇶ ${PREFIX}news
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🖼️ IMAGE EDITOR 〕━━⬣
-┃➤ ${PREFIX}crop
-┃➤ ${PREFIX}resize
-┃➤ ${PREFIX}rotate
-┃➤ ${PREFIX}flip
-┃➤ ${PREFIX}filter
-┃➤ ${PREFIX}adjust
-┃➤ ${PREFIX}text
-┃➤ ${PREFIX}watermark
-┃➤ ${PREFIX}imgedit
+╭━━〘 🖼️ 𝙸𝙼𝙰𝙶𝙴 𝙴𝙳𝙸𝚃𝙾𝚁 〙━━⬣
+┃⇶ ${PREFIX}crop
+┃⇶ ${PREFIX}resize
+┃⇶ ${PREFIX}rotate
+┃⇶ ${PREFIX}flip
+┃⇶ ${PREFIX}filter
+┃⇶ ${PREFIX}adjust
+┃⇶ ${PREFIX}text
+┃⇶ ${PREFIX}watermark
+┃⇶ ${PREFIX}imgedit
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🎬 VIDEO EDITOR 〕━━⬣
-┃➤ ${PREFIX}trim
-┃➤ ${PREFIX}speed
-┃➤ ${PREFIX}vidfilter
-┃➤ ${PREFIX}mute 
-┃➤ ${PREFIX}volume
-┃➤ ${PREFIX}videdit
+╭━━〘 🎬 𝚅𝙸𝙳𝙴𝙾 𝙴𝙳𝙸𝚃𝙾𝚁 〙━━⬣
+┃⇶ ${PREFIX}trim
+┃⇶ ${PREFIX}speed
+┃⇶ ${PREFIX}vidfilter
+┃⇶ ${PREFIX}mute 
+┃⇶ ${PREFIX}volume
+┃⇶ ${PREFIX}videdit
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🎨 MEDIA TOOLS 〕━━⬣
-┃➤ ${PREFIX}sticker
-┃➤ ${PREFIX}toimg
-┃➤ ${PREFIX}compress
-┃➤ ${PREFIX}enhance
-┃➤ ${PREFIX}blur
-┃➤ ${PREFIX}removebg
-┃➤ ${PREFIX}tourl
+╭━━〘 🎨 𝙼𝙴𝙳𝙸𝙰 𝚃𝙾𝙾𝙻𝚂 〙━━⬣
+┃⇶ ${PREFIX}sticker
+┃⇶ ${PREFIX}toimg
+┃⇶ ${PREFIX}compress
+┃⇶ ${PREFIX}enhance
+┃⇶ ${PREFIX}blur
+┃⇶ ${PREFIX}removebg
+┃⇶ ${PREFIX}tourl
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-  ╭━━〔 🎙️ VOICE & AI 〕━━⬣
-  ┃➤ ${PREFIX}tts
-  ┃➤ ${PREFIX}stt
-  ┃➤ ${PREFIX}vtr
-  ┃➤ ${PREFIX}tr
-  ┃➤ ${PREFIX}detect
-  ┃➤ ${PREFIX}ai 
-  ┃➤ ${PREFIX}gpt /
-  ┃➤ ${PREFIX}ask
-  ┃➤ ${PREFIX}gemini /
-  ┃➤ ${PREFIX}deepseek
-  ┃➤ ${PREFIX}summarize 
-  ┃➤ ${PREFIX}rewrite /
-  ┃➤  ${PREFIX}explain
-  ┃➤ ${PREFIX}image <prompt>
-  ┃➤ ${PREFIX}suno (official API pending)
+  ╭━━〘 🎙️ 𝚅𝙾𝙸𝙲𝙴 & 𝙰𝙸 〙━━⬣
+  ┃⇶ ${PREFIX}tts
+  ┃⇶ ${PREFIX}stt
+  ┃⇶ ${PREFIX}vtr
+  ┃⇶ ${PREFIX}tr
+  ┃⇶ ${PREFIX}detect
+  ┃⇶ ${PREFIX}ai 
+  ┃⇶ ${PREFIX}gpt /
+  ┃⇶ ${PREFIX}ask
+  ┃⇶ ${PREFIX}gemini /
+  ┃⇶ ${PREFIX}deepseek
+  ┃⇶ ${PREFIX}summarize 
+  ┃⇶ ${PREFIX}rewrite /
+  ┃⇶  ${PREFIX}explain
+  ┃⇶ ${PREFIX}image <prompt>
+  ┃⇶ ${PREFIX}suno (official API pending)
   ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 👑 GROUP MANAGER 〕━━⬣ (admins only)
-┃➤ ${PREFIX}gcstatus 
-┃➤ ${PREFIX}groupinfo
-┃➤ ${PREFIX}kick 
-┃➤ ${PREFIX}promote 
-┃➤ ${PREFIX}demote
-┃➤ ${PREFIX}add
-┃➤ ${PREFIX}mute 
-┃➤ ${PREFIX}unmute
-┃➤ ${PREFIX}link 
-┃➤ ${PREFIX}revoke
-┃➤ ${PREFIX}tag
-┃➤ ${PREFIX}tagall
-┃➤ ${PREFIX}kickall
-┃➤ ${PREFIX}kill
-┃➤ ${PREFIX}vv
+╭━━〘 👑 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙽𝙶𝙴𝚁 〙━━⬣ (admins only)
+┃⇶ ${PREFIX}gcstatus 
+┃⇶ ${PREFIX}groupinfo
+┃⇶ ${PREFIX}kick 
+┃⇶ ${PREFIX}promote 
+┃⇶ ${PREFIX}demote
+┃⇶ ${PREFIX}add
+┃⇶ ${PREFIX}mute 
+┃⇶ ${PREFIX}unmute
+┃⇶ ${PREFIX}link 
+┃⇶ ${PREFIX}revoke
+┃⇶ ${PREFIX}tag
+┃⇶ ${PREFIX}tagall
+┃⇶ ${PREFIX}kickall
+┃⇶ ${PREFIX}kill
+┃⇶ ${PREFIX}vv
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 ⚙️ SETTINGS 〕━━⬣
-┃➤ ${PREFIX}welcome on/off
-┃➤ ${PREFIX}goodbye on/off
-┃➤ ${PREFIX}autoreact 
-┃➤ ${PREFIX}autostatus 
-┃➤ ${PREFIX}antibadword 
-┃➤ ${PREFIX}antilink
-┃➤ ${PREFIX}antidelete 
-┃➤ ${PREFIX}anticall
-┃➤ ${PREFIX}settings
+╭━━〘 ⚙️ 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂 〙━━⬣
+┃⇶ ${PREFIX}welcome on/off
+┃⇶ ${PREFIX}goodbye on/off
+┃⇶ ${PREFIX}autoreact 
+┃⇶ ${PREFIX}autostatus 
+┃⇶ ${PREFIX}antibadword 
+┃⇶ ${PREFIX}antilink
+┃⇶ ${PREFIX}antidelete 
+┃⇶ ${PREFIX}anticall
+┃⇶ ${PREFIX}settings
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🔐 TEMP NUMBERS 〕━━⬣
-┃➤ ${PREFIX}countries
-┃➤ ${PREFIX}numbers
-┃➤ ${PREFIX}otp
+╭━━〘 🔐 𝚃𝙴𝙼𝙿 𝙽𝚄𝙼𝙱𝙴𝚁𝚂 〙━━⬣
+┃⇶ ${PREFIX}countries
+┃⇶ ${PREFIX}numbers
+┃⇶ ${PREFIX}otp
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 🛠 TOOLS 〕━━⬣
-┃➤ ${PREFIX}calc
-┃➤ ${PREFIX}flip 
-┃➤ ${PREFIX}roll 
-┃➤ ${PREFIX}8ball
-┃➤ ${PREFIX}joke
-┃➤ ${PREFIX}quote 
-┃➤ ${PREFIX}fact
-┃➤ ${PREFIX}reverse 
-┃➤ ${PREFIX}upper 
-┃➤ ${PREFIX}lower
-┃➤ ${PREFIX}id 
-┃➤ ${PREFIX}whoami
-┃➤ ${PREFIX}ping 
-┃➤ ${PREFIX}alive 
-┃➤ ${PREFIX}uptime
+╭━━〘 🛠 𝚃𝙾𝙾𝙻𝚂 〙━━⬣
+┃⇶ ${PREFIX}calc
+┃⇶ ${PREFIX}flip 
+┃⇶ ${PREFIX}roll 
+┃⇶ ${PREFIX}8ball
+┃⇶ ${PREFIX}joke
+┃⇶ ${PREFIX}quote 
+┃⇶ ${PREFIX}fact
+┃⇶ ${PREFIX}reverse 
+┃⇶ ${PREFIX}upper 
+┃⇶ ${PREFIX}lower
+┃⇶ ${PREFIX}id 
+┃⇶ ${PREFIX}whoami
+┃⇶ ${PREFIX}ping 
+┃⇶ ${PREFIX}alive 
+┃⇶ ${PREFIX}uptime
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
-╭━━〔 👑 OWNER 〕━━⬣
-┃➤ ${PREFIX}owner
-┃➤ ${PREFIX}broadcast
-┃➤ ${PREFIX}restart
-┃➤ ${PREFIX}block 
-┃➤ ${PREFIX}unblock
+╭━━〘 👑 𝙾𝚆𝙽𝙴𝚁 〙━━⬣
+┃⇶ ${PREFIX}owner
+┃⇶ ${PREFIX}broadcast
+┃⇶ ${PREFIX}restart
+┃⇶ ${PREFIX}block 
+┃⇶ ${PREFIX}unblock
 ╰━━━━━━━━━━━━━━━━━━━━⬣
 
 _"${BOT_NAME} By ${AUTHOR}"_`;
