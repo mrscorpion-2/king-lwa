@@ -1328,7 +1328,7 @@ async function handleCommand(sock, msg, { startTime, settings }) {
       case "owner": {
         const ownerJid = `${OWNER}@s.whatsapp.net`;
         await sock.sendMessage(jid, {
-          text: wrapCaption(`👑 *OWNER DETAILS*\n\n👤 *Name:* ${AUTHOR}\n📱 *Number:* +27736324314\n🌐 *Site:* nexora.zone.id\n🛠️ *Role:* Developer and owner`),
+          text: wrapCaption(`👑 *OWNER DETAILS*\n\n👤 *Name:* ${AUTHOR}\n📱 *Number:* +27736324314\n🌐 *Site:* not available\n🛠️ *Role:* Developer and owner`),
           mentions: [ownerJid],
         }, { quoted: msg });
         break;
