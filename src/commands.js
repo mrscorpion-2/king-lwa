@@ -538,15 +538,15 @@ async function handleTranscribe(sock, msg, { translateTo } = {}) {
 }
 
 function buildMenu(pushName, runtime) {
-  return `╭━〘${BOT_NAME}〙━⬣
-┃ ᚛ Sᴛᴀᴛᴜs  : ONLINE
-┃ ᚛ ʀᴜɴᴛɪᴍᴇ : ${runtime}
-┃ ᚛ ᴜsᴇʀ    : ${pushName}
-┃ ᚛ ᴅᴇᴠ     : ${AUTHOR}
-┃ ᚛ sɪᴛᴇ    : ɪɴ ɴᴇxᴛ ᴜᴘᴅᴛ 
-╰━━━━━━━━━━━━━━━━━━━━⬣
+  return `╭━〘${BOT_NAME}〙━❑
+┃ 〄 Sᴛᴀᴛᴜs  : ONLINE
+┃ 〄 ʀᴜɴᴛɪᴍᴇ : ${runtime}
+┃ 〄 ᴜsᴇʀ    : ${pushName}
+┃ 〄 ᴅᴇᴠ     : ${AUTHOR}
+┃ 〄 sɪᴛᴇ    : ɪɴ ɴᴇxᴛ ᴜᴘᴅᴛ 
+╰━━━━━━━━━━━━━━━❑
 
-╭━━〘 📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂 〙━━⬣
+╭▰▱〘 📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂 〙▰▱𖡩
 ┃⇶ ${PREFIX}yt
 ┃⇶ ${PREFIX}play <query>
 ┃⇶ ${PREFIX}song 
@@ -555,9 +555,9 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}ig
 ┃⇶ ${PREFIX}fb 
 ┃⇶ ${PREFIX}wallpaper
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🔎 𝚂𝙴𝙰𝚁𝙲𝙷 〙━━⬣
+╭▰▱〘 🔎 𝚂𝙴𝙰𝚁𝙲𝙷 〙▰▱𖣎
 ┃⇶ ${PREFIX}google
 ┃⇶ ${PREFIX}bing 
 ┃⇶ ${PREFIX}duckduckgo 
@@ -568,9 +568,9 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}weather
 ┃⇶ ${PREFIX}maps
 ┃⇶ ${PREFIX}news
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🖼️ 𝙸𝙼𝙰𝙶𝙴 𝙴𝙳𝙸𝚃𝙾𝚁 〙━━⬣
+╭▰▱〘 🖼️ 𝙸𝙼𝙰𝙶𝙴 𝙴𝙳𝙸𝚃𝙾𝚁 〙▰▱𖣎
 ┃⇶ ${PREFIX}crop
 ┃⇶ ${PREFIX}resize
 ┃⇶ ${PREFIX}rotate
@@ -580,18 +580,18 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}text
 ┃⇶ ${PREFIX}watermark
 ┃⇶ ${PREFIX}imgedit
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🎬 𝚅𝙸𝙳𝙴𝙾 𝙴𝙳𝙸𝚃𝙾𝚁 〙━━⬣
+╭▰▱〘 🎬 𝚅𝙸𝙳𝙴𝙾 𝙴𝙳𝙸𝚃𝙾𝚁 〙▰▱𖣎
 ┃⇶ ${PREFIX}trim
 ┃⇶ ${PREFIX}speed
 ┃⇶ ${PREFIX}vidfilter
 ┃⇶ ${PREFIX}mute 
 ┃⇶ ${PREFIX}volume
 ┃⇶ ${PREFIX}videdit
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰╴▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🎨 𝙼𝙴𝙳𝙸𝙰 𝚃𝙾𝙾𝙻𝚂 〙━━⬣
+╭▰▱〘 🎨 𝙼𝙴𝙳𝙸𝙰 𝚃𝙾𝙾𝙻𝚂 〙▰▱𖣎
 ┃⇶ ${PREFIX}sticker
 ┃⇶ ${PREFIX}toimg
 ┃⇶ ${PREFIX}compress
@@ -599,9 +599,9 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}blur
 ┃⇶ ${PREFIX}removebg
 ┃⇶ ${PREFIX}tourl
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-  ╭━━〘 🎙️ 𝚅𝙾𝙸𝙲𝙴 & 𝙰𝙸 〙━━⬣
+  ╭▰▱〘 🎙️ 𝚅𝙾𝙸𝙲𝙴 & 𝙰𝙸 〙▰▱𖣎
   ┃⇶ ${PREFIX}tts
   ┃⇶ ${PREFIX}stt
   ┃⇶ ${PREFIX}vtr
@@ -617,9 +617,9 @@ function buildMenu(pushName, runtime) {
   ┃⇶  ${PREFIX}explain
   ┃⇶ ${PREFIX}image <prompt>
   ┃⇶ ${PREFIX}suno (official API pending)
-  ╰━━━━━━━━━━━━━━━━━━━━⬣
+  ╰╴▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 👑 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙽𝙶𝙴𝚁 〙━━⬣ (admins only)
+╭▰▱〘 👑 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙽𝙶𝙴𝚁 〙▰▱⬣ [𝙰𝚍𝚖𝚒𝚗𝚜 𝙾𝚗𝚕𝚢]
 ┃⇶ ${PREFIX}gcstatus 
 ┃⇶ ${PREFIX}groupinfo
 ┃⇶ ${PREFIX}kick 
@@ -635,9 +635,9 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}kickall
 ┃⇶ ${PREFIX}kill
 ┃⇶ ${PREFIX}vv
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 ⚙️ 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂 〙━━⬣
+╭▰▱〘 ⚙️ 𝚂𝙴𝚃𝚃𝙸𝙽𝙶𝚂 〙▰▱𖣎
 ┃⇶ ${PREFIX}welcome on/off
 ┃⇶ ${PREFIX}goodbye on/off
 ┃⇶ ${PREFIX}autoreact 
@@ -647,15 +647,15 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}antidelete 
 ┃⇶ ${PREFIX}anticall
 ┃⇶ ${PREFIX}settings
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🔐 𝚃𝙴𝙼𝙿 𝙽𝚄𝙼𝙱𝙴𝚁𝚂 〙━━⬣
+╭▰▱〘 🔐 𝚃𝙴𝙼𝙿 𝙽𝚄𝙼𝙱𝙴𝚁𝚂 〙▰▱𖣎
 ┃⇶ ${PREFIX}countries
 ┃⇶ ${PREFIX}numbers
 ┃⇶ ${PREFIX}otp
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 🛠 𝚃𝙾𝙾𝙻𝚂 〙━━⬣
+╭▰▱〘 🛠 𝚃𝙾𝙾𝙻𝚂 〙▰▱𖣎
 ┃⇶ ${PREFIX}calc
 ┃⇶ ${PREFIX}flip 
 ┃⇶ ${PREFIX}roll 
@@ -671,15 +671,15 @@ function buildMenu(pushName, runtime) {
 ┃⇶ ${PREFIX}ping 
 ┃⇶ ${PREFIX}alive 
 ┃⇶ ${PREFIX}uptime
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
-╭━━〘 👑 𝙾𝚆𝙽𝙴𝚁 〙━━⬣
+╭▰▱〘 👑 𝙾𝚆𝙽𝙴𝚁 〙▰▱𖣎
 ┃⇶ ${PREFIX}owner
 ┃⇶ ${PREFIX}broadcast
 ┃⇶ ${PREFIX}restart
 ┃⇶ ${PREFIX}block 
 ┃⇶ ${PREFIX}unblock
-╰━━━━━━━━━━━━━━━━━━━━⬣
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱𖣎
 
 _"${BOT_NAME} By ${AUTHOR}"_`;
 }
@@ -1328,7 +1328,7 @@ async function handleCommand(sock, msg, { startTime, settings }) {
       case "owner": {
         const ownerJid = `${OWNER}@s.whatsapp.net`;
         await sock.sendMessage(jid, {
-          text: wrapCaption(`👑 *OWNER DETAILS*\n\n👤 *Name:* ${AUTHOR}\n📱 *Number:* +27736324314\n🌐 *Site:* not available\n🛠️ *Role:* Developer and owner`),
+          text: wrapCaption(`👑 *𝙾𝚆𝙽𝙴𝚁 𝙳𝙴𝚃𝙰𝙸𝙻𝚂*\n\n👤 *Name:* ${AUTHOR}\n📱 *ɴᴜᴍʙᴇʀ:* +27736324314\n🌐 *Site:* not available\n🛠️ *Role:* Developer and owner`),
           mentions: [ownerJid],
         }, { quoted: msg });
         break;
