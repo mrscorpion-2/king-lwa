@@ -539,12 +539,12 @@ async function handleTranscribe(sock, msg, { translateTo } = {}) {
 
 function buildMenu(pushName, runtime) {
   return `╭━〘${BOT_NAME}〙━❑
-┃ 〄 Sᴛᴀᴛᴜs  : ONLINE
-┃ 〄 ʀᴜɴᴛɪᴍᴇ : ${runtime}
-┃ 〄 ᴜsᴇʀ    : ${pushName}
-┃ 〄 ᴅᴇᴠ     : ${AUTHOR}
-┃ 〄 sɪᴛᴇ    : ɪɴ ɴᴇxᴛ ᴜᴘᴅᴛ 
-╰━━━━━━━━━━━━━━━❑
+┃ ↳❏ Sᴛᴀᴛᴜs  : ONLINE
+┃ ↳❏ ʀᴜɴᴛɪᴍᴇ : ${runtime}
+┃ ↳❏ ᴜsᴇʀ    : ${pushName}
+┃ ↳❏ ᴅᴇᴠ     : ${AUTHOR}
+┃ ↳❏ sɪᴛᴇ    : ɪɴ ɴᴇxᴛ ᴜᴘᴅᴛ 
+╰━━━━━━━━━━━━━━━❑🕷️
 
 ╭▰▱〘 📥 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝚂 〙▰▱𖡩
 ┃⇶ ${PREFIX}yt
