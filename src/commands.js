@@ -11,7 +11,7 @@ const {
 const PREFIX = process.env.PREFIX || ".";
 const BOT_NAME = "𝑴Ꝛ𝑳ᴡꜻ𝘇𝐼→𝗠𝗗";
 const AUTHOR = "Lwazi-dev";
-const MENU_IMAGE = "https://i.ibb.co/1fP063GC/IMG-20260829-WA0467.webp";
+const MENU_IMAGE = "https://i.ibb.co/SXRrf4Hw/mr-lwazi-md-style-1-1.png";
 const OWNER = process.env.OWNER_NUMBER || "27736324314";
 const KICKALL_DELAY_MS = parseInt(process.env.KICKALL_DELAY_MS || "4000", 10);
 
